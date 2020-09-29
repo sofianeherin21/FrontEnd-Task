@@ -727,7 +727,9 @@ nav .btn:hover{
   position: relative;
   
 }
-
+.content .play,.content h5{
+  transform: skewY(5deg);
+}
 
 
 
@@ -1272,25 +1274,27 @@ footer .credits a {
     position: absolute;
     display: inline-block;
     transform: translate(-50%,-50%);
-    top: 40%;
+    top: 50%;
     left: 50%;
     color: white;
-    width: 100%;
+    width: 50%;
     text-align: center;
     z-index: 999;
 }
 
 .play {
+    width: 12%;
     font-size: 50px;
     cursor: pointer;
-    border: 1px solid #FFF;
+    border: 5px solid #FFF;
     display: inline-block;
     text-align: center;
-    padding: 5px 25px;
+    padding: 5px 20px;
     box-sizing: border-box;
     border-radius: 50%;
 }
 
 .play:hover {
-    background-color: #80e622;
+    background-color:white;
+    color:#80e622;
 }
